@@ -1,0 +1,32 @@
+{
+  "name": "@microsoft/gulp-core-build-serve",
+  "version": "3.3.29",
+  "description": "",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "tsdoc": {
+    "tsdocFlavor": "AEDoc"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Microsoft/web-build-tools/tree/master/core-build/gulp-core-build-serve"
+  },
+  "scripts": {
+    "build": ""
+  },
+  "dependencies": {
+    "@microsoft/gulp-core-build": "3.9.26",
+    "@microsoft/node-core-library": "3.13.0",
+    "@types/node": "8.5.8",
+    "colors": "~1.2.1",
+    "deasync": "~0.1.7",
+    "express": "~4.16.2",
+    "gulp": "~3.9.1",
+    "gulp-connect": "~5.5.0",
+    "gulp-open": "~3.0.1",
+    "node-forge": "~0.7.1",
+    "st": "~2.0.0",
+    "sudo": "~1.0.3"
+  }
+}
