@@ -49,7 +49,7 @@ The property is named `staticPaths`, and the structure is an array of objects co
 * `path` is the path to the location on your disk that you want to serve
 * `url` is the url path that access that location.
 
-This `gulpfile.js` works great for me, when using a stock `HelloWorld` webpart.
+[This `gulpfile.js`](https://github.com/Js-Brecht/static-paths-1.8.2/blob/master/webparts/hello-world-webpart/gulpfile.js) works great for me, when using a stock `HelloWorld` webpart.
 
 ```js
 'use strict';
