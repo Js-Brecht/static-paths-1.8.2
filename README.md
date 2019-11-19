@@ -1,6 +1,6 @@
 # Serving additional static paths from SPFx local workbench
 
-This walks you through how to implement a patch in order to get the local workbench to work using SPFx version 1.8.2
+This walks you through how to implement a patch in order to get the local workbench to work using SPFx version 1.8.2 in a `rush` repository.
 
 **NOTE:**  SPFx EULA prohibits any modifications, workarounds, or redistribution of the software.  Because of this, I cannot publish how I was able to get this to work with the SPFx packages themselves.  I can, however, say that it doesn't involve any changes to the source code.  You just have to get them to use the patched versions of the **_open source_** packages I will talk about below.
 
