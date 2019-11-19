@@ -18,7 +18,7 @@ This repository is currently set up to allow the local workbench to run.  If you
     > * Make sure the build script was an empty string,
     > * Remove devDependencies, since they are production packages, not the dev source, and you don't need those devDependencies downloading/linking.
 
-* Unpack patched packages into your repository
+* Unpack patched packages into your repository ([I put them here, which you'll see I need to use later](https://github.com/Js-Brecht/static-paths-1.8.2/tree/master/custom), but you can put them anywhere, as long as they're included in the next step)
 
 * Add these packages to your `rush.json` packages inventory ([examine the changes here](https://github.com/Js-Brecht/static-paths-1.8.2/blob/master/rush.json)).
 
