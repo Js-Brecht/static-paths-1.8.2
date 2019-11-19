@@ -20,7 +20,7 @@ This repository is currently set up to allow the local workbench to run.  If you
 
 * Unpack patched packages into your repository
 
-* Add these packages to your `rush.json` packages inventory.
+* Add these packages to your `rush.json` packages inventory ([examine the changes here](https://github.com/Js-Brecht/static-paths-1.8.2/blob/master/rush.json)).
 
   > I find it easiest to leave `ensureConsistentVersions` turned off.  If you don't then you will have to add a bunch of `allowedAlternativeVersions` to allow various package discrepancies between the production packages.
 
