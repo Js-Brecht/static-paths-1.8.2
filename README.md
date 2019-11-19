@@ -42,7 +42,7 @@ As noted above, the EULA for the SPFX framework prohibits me from publishing wha
 
 ## `gulpfile.js`
 
-This patch incorporates a new property on the SPFx `buildConfig` exposed by `@microsoft/gulp-core-build` package.
+This patch incorporates a new property on the SPFx `IBuildConfig` exposed by `@microsoft/gulp-core-build` package.
 
 The property is named `staticPaths`, and the structure is an array of objects containing both `path` and `url` properties.
 
